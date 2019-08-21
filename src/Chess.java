@@ -64,7 +64,7 @@ class ChessMainFrame extends JFrame implements ActionListener,MouseListener,Runn
 
         //创建工具栏
         JToolBar jmain = new JToolBar();
-        text = new JLabel("欢迎使用象棋对弈系统");
+        text = new JLabel("中国象棋");
         //当鼠标放上显示信息
         text.setToolTipText("信息提示");
         anew = new JButton(" 新 游 戏 ");
